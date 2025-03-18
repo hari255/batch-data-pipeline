@@ -1,0 +1,12 @@
+logs/
+airflow.db
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+airflow_db_setup.sql
+
+webserver_config.py
+venv/
+job_pipeline_env/
+.env

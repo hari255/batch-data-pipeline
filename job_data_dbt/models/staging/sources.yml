@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: job_data
+    database: trans-envoy-314612
+    schema: job_data
+    tables:
+      - name: staging_jobs

@@ -1,0 +1,10 @@
+job_data_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: trans-envoy-314612
+      dataset: job_data
+      threads: 1
+      keyfile: /Users/harinath/.gcp/job-pipeline-key.json

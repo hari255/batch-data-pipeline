@@ -1,0 +1,23 @@
+version: 2
+models:
+  - name: stg_jobs
+    description: "Staging table for job data"
+    columns:
+      - name: job_id
+        description: "Unique identifier for the job"
+        tests:
+          - not_null
+          - unique
+
+      - name: title
+        description: "Job title"
+        tests:
+          - not_null
+
+      - name: salary
+        description: "Annual salary for the job"
+        tests:
+          - not_null
+          - numeric_range:
+              min_value: 0
+              max_value: 1000000
