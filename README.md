@@ -93,24 +93,3 @@ Track job trends, demand by location, and salary distribution
   </table>
 </div>
 
-📁 Project Structure
-Copyjob-market-pipeline/
-│
-├── airflow/                 # Airflow DAGs and configuration
-│   ├── dags/                # Pipeline DAG definitions
-│   │   ├── ingestion_dag.py # Data extraction DAG
-│   │   ├── processing_dag.py# Data processing DAG
-│   │   └── dbt_dag.py       # dbt transformation DAG
-│   └── plugins/             # Custom operators and hooks
-│
-├── dbt/                     # dbt project
-│   ├── models/              # SQL transformation models
-│   │   ├── staging/         # Initial cleaning and prep
-│   │   ├── intermediate/    # Intermediate tables
-│   │   ├── dimension/       # Dimension tables
-│   │   └── fact/            # Fact tables
-│   ├── tests/               # Data quality tests
-│   └── docs/                # Documentation
-│
-│
-└── README.md                # This file
