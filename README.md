@@ -2,7 +2,7 @@
 A Batch data pipeline for extracting, processing, and analyzing job market data from JoinRise API and enabling on the fly analysis without querying the data for non-technical and business users.
 
 **WORKFLOW**
-[Blank diagram.pdf](https://github.com/user-attachments/files/19580972/Blank.diagram.pdf)
+<img width="1508" alt="Screenshot 2025-04-03 at 2 12 35 AM" src="https://github.com/user-attachments/assets/eeab5d59-7dcf-41e3-94b4-605da3a9806e" />
 
 
 🔍 Overview
