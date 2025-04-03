@@ -5,6 +5,53 @@ A Batch data pipeline for extracting, processing, and analyzing job market data 
 <img width="1508" alt="Screenshot 2025-04-03 at 2 12 35 AM" src="https://github.com/user-attachments/assets/eeab5d59-7dcf-41e3-94b4-605da3a9806e" />
 
 
+💻 Tech Stack
+<div align="center">
+  <table>
+    <tr>
+      <th>Component</th>
+      <th>Technology</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td><b>Orchestration</b></td>
+      <td>Apache Airflow (GCP Composer)</td>
+      <td>Workflow management and scheduling</td>
+    </tr>
+    <tr>
+      <td><b>Storage</b></td>
+      <td>Google Cloud Storage (GCS)</td>
+      <td>Raw data and Parquet file storage</td>
+    </tr>
+    <tr>
+      <td><b>Processing</b></td>
+      <td>Apache Spark (PySpark)</td>
+      <td>Large-scale data processing</td>
+    </tr>
+    <tr>
+      <td><b>Transformation</b></td>
+      <td>dbt (data build tool)</td>
+      <td>SQL transformations and testing</td>
+    </tr>
+    <tr>
+      <td><b>Data Warehouse</b></td>
+      <td>Google BigQuery</td>
+      <td>Analytics and data serving</td>
+    </tr>
+    <tr>
+      <td><b>Visualization</b></td>
+      <td>ThoughtSpot</td>
+      <td>Dashboards and reporting</td>
+    </tr>
+    <tr>
+      <td><b>Infrastructure</b></td>
+      <td>Google Cloud Platform (GCP)</td>
+      <td>Cloud infrastructure</td>
+    </tr>
+  </table>
+</div>
+
+
 🔍 Overview
 This project implements an end-to-end data pipeline that extracts job postings from the JoinRise API, processes and transforms the data using modern data engineering tools, and loads it into BigQuery for analysis and visualization.
 The pipeline enables data-driven insights into job market trends, geographic demand, and salary distributions through automated daily updates.
@@ -49,49 +96,4 @@ Track job trends, demand by location, and salary distribution just by typing key
 <img width="1655" alt="Screenshot 2025-04-03 at 1 45 06 AM" src="https://github.com/user-attachments/assets/70268973-ec49-406b-864c-4bf33011dda0" />
 
 
-💻 Tech Stack
-<div align="center">
-  <table>
-    <tr>
-      <th>Component</th>
-      <th>Technology</th>
-      <th>Purpose</th>
-    </tr>
-    <tr>
-      <td><b>Orchestration</b></td>
-      <td>Apache Airflow (GCP Composer)</td>
-      <td>Workflow management and scheduling</td>
-    </tr>
-    <tr>
-      <td><b>Storage</b></td>
-      <td>Google Cloud Storage (GCS)</td>
-      <td>Raw data and Parquet file storage</td>
-    </tr>
-    <tr>
-      <td><b>Processing</b></td>
-      <td>Apache Spark (PySpark)</td>
-      <td>Large-scale data processing</td>
-    </tr>
-    <tr>
-      <td><b>Transformation</b></td>
-      <td>dbt (data build tool)</td>
-      <td>SQL transformations and testing</td>
-    </tr>
-    <tr>
-      <td><b>Data Warehouse</b></td>
-      <td>Google BigQuery</td>
-      <td>Analytics and data serving</td>
-    </tr>
-    <tr>
-      <td><b>Visualization</b></td>
-      <td>Looker / Tableau / Google Data Studio</td>
-      <td>Dashboards and reporting</td>
-    </tr>
-    <tr>
-      <td><b>Infrastructure</b></td>
-      <td>Google Cloud Platform (GCP)</td>
-      <td>Cloud infrastructure</td>
-    </tr>
-  </table>
-</div>
 
