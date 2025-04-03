@@ -1,18 +1,9 @@
 
-A Batch data pipeline for extracting, processing, and analyzing job market data from JoinRise API.
+A Batch data pipeline for extracting, processing, and analyzing job market data from JoinRise API and enabling on the fly analysis without querying the data for non-technical and business users.
 
-📋 Table of Contents
+**WORKFLOW**
+[Blank diagram.pdf](https://github.com/user-attachments/files/19580972/Blank.diagram.pdf)
 
-Overview
-Architecture
-Tech Stack
-Implementation Steps
-Project Structure
-Installation
-Usage
-Dashboards
-Contributing
-License
 
 🔍 Overview
 This project implements an end-to-end data pipeline that extracts job postings from the JoinRise API, processes and transforms the data using modern data engineering tools, and loads it into BigQuery for analysis and visualization.
@@ -42,10 +33,14 @@ Optimize queries using partitioning & clustering in BigQuery
  - Automate daily job execution
  - Implement DAG dependencies for ingestion, transformation, and reporting
  - Send failure alerts & logging
+   
+<img width="1685" alt="Screenshot 2025-03-18 at 12 23 15 AM" src="https://github.com/user-attachments/assets/4afb4e85-628b-4a57-969e-27ea6b86c807" />
+
+   
 
 5️⃣ Analytics & Visualization
- - generate reports using `Tableau` or  `Looker`
-Track job trends, demand by location, and salary distribution
+ - generate reports, serach based analysis and charts using ThoughtSpot
+Track job trends, demand by location, and salary distribution just by typing keywords.
 
 💻 Tech Stack
 <div align="center">
