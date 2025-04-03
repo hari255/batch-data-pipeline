@@ -24,6 +24,10 @@ Convert data into Parquet format for efficient querying
 3️⃣ Data Transformation `(dbt + BigQuery)`
  - Create Data Models for Business usecases using `DBT`
  - Create Daily snap shots, views, data quality checks and tests using `DBR`
+ - 
+<img width="1081" alt="Screenshot 2025-04-03 at 2 16 10 AM" src="https://github.com/user-attachments/assets/3f6622fe-2bfd-4473-8bde-12a23f36a611" />
+
+
    
 Define data models (Staging, Intermediate, Fact & Dimension tables)
 Implement testing (dbt tests) and documentation
@@ -41,6 +45,9 @@ Optimize queries using partitioning & clustering in BigQuery
 5️⃣ Analytics & Visualization
  - generate reports, serach based analysis and charts using ThoughtSpot
 Track job trends, demand by location, and salary distribution just by typing keywords.
+
+<img width="1655" alt="Screenshot 2025-04-03 at 1 45 06 AM" src="https://github.com/user-attachments/assets/70268973-ec49-406b-864c-4bf33011dda0" />
+
 
 💻 Tech Stack
 <div align="center">
